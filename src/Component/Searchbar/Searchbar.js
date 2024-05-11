@@ -22,10 +22,11 @@ export default function Searchbar() {
 
     return (
         <>
-            <div className='relative sm:max-w-[600px] lg:max-w-[1240px] mx-auto mt-20 mb-10 bg-gray-200 rounded-xl'>
-                <p className='absolute top-6 left-16 text-lg font-medium'>Enter User Name</p>
-                <div className='flex'>
-                    <div className="sm:w-[360px] lg:w-[1000px] ml-auto mr-8 py-16">
+            <div className='flex justify-center'>
+            <div className='flex flex-col justify-center items-center lg:max-w-[1240px] mx-2 mt-20 mb-10 bg-gray-200 rounded-xl'>
+                <p className='text-xl font-medium py-6'>Enter User Name</p>
+                <div className='flex justify-center items-center mx-6 pb-12'>
+                    <div className="md:w-[400px] lg:w-[1000px] mx-2 ml-auto mr-8">
                         <Combobox value={selected} onChange={(value) => setSelected(value)}>
                             <div className="relative">
                                 <ComboboxInput
@@ -48,7 +49,7 @@ export default function Searchbar() {
                             >
                                 <ComboboxOptions
                                     anchor="bottom"
-                                    className="lg:w-[1000px] rounded-xl border border-black/3 bg-white p-1 [--anchor-gap:var(--spacing-1)] empty:hidden"
+                                    className="md:w-[400px] lg:w-[1000px] rounded-xl border border-black/3 bg-white p-1 [--anchor-gap:var(--spacing-1)] empty:hidden"
                                 >
                                     {data && filteredPeople.map((person) => (
                                         <ComboboxOption
@@ -66,11 +67,12 @@ export default function Searchbar() {
                         </Combobox>
                     </div>
                     <Link to={`/search/${selected}`} >
-                        <div className='flex justify-center items-center bg-orange-500 my-16 mr-20 rounded-lg'>
+                        <div className='flex justify-center items-center bg-orange-500 rounded-lg'>
                             <button className='p-2 text-base font-medium text-white'>Search</button>
                         </div>
                     </Link>
                 </div>
+            </div>
             </div>
         </>
     )
