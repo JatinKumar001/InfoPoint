@@ -2,6 +2,8 @@
 
 ## Submited By :- Jatin Kumar - 500095930
 
+### View Live Demo :- https://infopoint-digitaljalebi.netlify.app/
+
 ### Installation - (Run Code on your Local Device)
 
 1. Clone the repository
