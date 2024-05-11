@@ -71,7 +71,7 @@ export default function ItemCard() {
                                                 <p className='text-gray-500 text-base'>City</p>
                                             </div>
                                         </div>
-                                        <div className='grid grid-cols-2 sm:gap-28 md:grid-cols-1 md:gap-0 lg:grid-cols-1'>
+                                        <div className='grid grid-cols-1 lg:grid-cols-1'>
                                             <div className='flex flex-col pt-10'>
                                                 <p className='pb-2 font-medium'>Contact Details</p>
                                                 <p className='flex text-gray-500 pb-1'><img className='pr-2' src={Call} />{item.phone}</p>
