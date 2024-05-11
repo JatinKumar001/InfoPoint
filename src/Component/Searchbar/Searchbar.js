@@ -9,7 +9,7 @@ import loadbar from '../../asset/loading.gif';
 export default function Searchbar() {
     const [query, setQuery] = useState('')
     const [selected, setSelected] = useState()
-    console.log(selected)
+    // console.log(selected)
 
     const { data, loading, error } = useFetch("https://dummyjson.com/users")
 
