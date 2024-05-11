@@ -1,3 +1,15 @@
+# Digital Jalebi
+
+## Submited By :- Jatin Kumar - 500095930
+
+### Installation
+
+1. Clone the repository
+2. Run `npm install` to install the dependencies
+3. Run `npm run dev` to start the application
+4. Open `http://localhost:5173` in your browser
+5. Application is now running!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
