@@ -1,4 +1,4 @@
-# Digital Jalebi
+# Digital Jalebi Assignment
 
 ## Submited By :- Jatin Kumar - 500095930
 
