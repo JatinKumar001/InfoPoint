@@ -17,7 +17,7 @@ export default function Usersearch() {
     const key = location.pathname.split("/")[2];
 
     const { data, loading, error } = useFetch(`https://dummyjson.com/users/search?q=${key}`)
-    console.log(data.users)
+    // console.log(data.users)
 
     if (!data || !Array.isArray(data.users)) {
         return (

@@ -13,7 +13,7 @@ import PostalCode from '../../asset/code.svg'
 export default function ItemCard() {
 
     const { data, loading, error } = useFetch("https://dummyjson.com/users")
-    console.log(data.users)
+    // console.log(data.users)
 
     if (!data || !Array.isArray(data.users)) {
         return (
