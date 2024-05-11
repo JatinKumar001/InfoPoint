@@ -2,7 +2,7 @@
 
 ## Submited By :- Jatin Kumar - 500095930
 
-### Installation
+### Installation - (Run Code on your Local Device)
 
 1. Clone the repository
 2. Run `npm install` to install the dependencies
